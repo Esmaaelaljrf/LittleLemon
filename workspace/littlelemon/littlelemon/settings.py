@@ -37,7 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'restaurant.apps.RestaurantConfig',
+    'rest_framework',
+    'restaurant',
 ]
 
 MIDDLEWARE = [
@@ -83,7 +84,7 @@ WSGI_APPLICATION = 'littlelemon.wsgi.application'
 DATABASES = {
     'default': {
 'ENGINE': 'django.db.backends.mysql',
-'NAME': 'LittleLemon',
+'NAME': 'littlelemon',
 'USER': 'root',
 'PASSWORD': '@E2682002g@',
 'HOST': '127.0.0.1',
