@@ -17,7 +17,7 @@ class Migration(migrations.Migration):
                 ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
                 ('Name', models.CharField(max_length=255)),
                 ('No_of_guests', models.IntegerField(max_length=6)),
-                ('BookingDate', models.DateTimeField()),
+                ('BookingDate', models.DateField()),
             ],
         ),
     ]
