@@ -19,6 +19,7 @@ class SingleMenuItemView (generics.RetrieveUpdateAPIView, generics.DestroyAPIVie
 
 
 # Booking view
+# Note: Its urls is on urls.py'project,
 class BookingViewSet (viewsets.ModelViewSet):
     permission_classes = [IsAuthenticated]
     queryset = Booking.objects.all()
